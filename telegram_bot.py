@@ -7,16 +7,16 @@ import os
 
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-TOKEN_VK = 'bdd5847d567892bd744fc2865f54381d4ae7b5494a6e3ab93b996a17c8f54620d2ff6af36a50c1daa5c29'
+TOKEN_VK = ''
 SINGLE_RUN = '1'
 
-URL_VK = 'https://api.vk.com/method/wall.get?domain=podcastogru&count=5&filter=owner&access_token={0}&v=5.60'.\
+URL_VK = ''.\
     format(TOKEN_VK)
 FILENAME_VK = os.path.join(THIS_FOLDER, 'last_known_id.txt')
-BASE_POST_URL = 'https://vk.com/wall-115220159_' #все записи вввввв
+BASE_POST_URL = '' #все записи вввввв
 
 
-BOT_TOKEN = '534937001:AAHqnYJ7CWjceVdPd3JHmuC8TC3kVFUtjtE'
+BOT_TOKEN = ''
 CHANNEL_NAME = '@my_test_bot_group_42'
 
 
