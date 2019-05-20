@@ -1,4 +1,4 @@
-import telebot  # 534937001:AAHqnYJ7CWjceVdPd3JHmuC8TC3kVFUtjtE
+import telebot 
 import time
 import eventlet
 import logging
